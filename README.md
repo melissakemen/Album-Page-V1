@@ -5,7 +5,7 @@ My favorite album
   <body>
   <img src="http://i710.photobucket.com/albums/ww101/albumgrab/PearlJamVitalogy.jpg"</img>
   <h1>Vitalogy</h1>
-  <h2><a href='https//pearljam.com target="_blank">Pearl Jam</a></h2>
+  <h2>Pearl Jam</h2>
   <h3>Release Date: December 6, 1994</h3>
   <p> Third studio album with music featuring a more diverse sound consisting of aggressive rock song and ballads.</p>
   <h2>Band Members and Producer</h2>
@@ -17,8 +17,8 @@ My favorite album
   <li>Dave Abbruzzese - Drums</li>
   <li>Brendan O'Brien - Producer</li>
    </ul>
-   <h2>Tracks</h2>
    <table border="1" width="100%">
+   <caption>Tracks</caption>
    <tr bgcolor="grey">
    <th>Track #</th>
    <th>Track Title</th>
