@@ -6,24 +6,45 @@
      font-style: italic;
      color: purple;
    } 
+   a {text-decoration: none;
+   }
+   a:link {
+     text-decoration: none;
+   }
+   a:visited {
+     font-weight: none;
+     text-decoration: none;
+   }
+   a:hover {
+     text-decoration: underline;
+     background-color: rosybrown;
+   }
+   a:active {
+     text-decoration: none;
+   }
+   tbody{
+     background-color: mistyrose;
+   }
+   
    </style>
-   <div 
+  <!-- <div 
      style="background-image: url(images/PearlJamVitalogy.jpg);
      background-size:cover;
      background-position:center center;
      background-repeat:no-repeat;
      background-color: #cccccc; 
       >
-             </div>
+             </div>  -->
+    
   <img text-align="center" src="http://i710.photobucket.com/albums/ww101/albumgrab/PearlJamVitalogy.jpg"</img>
   </head>
   <body style="text-align:Center;">
   <h1 style="font-style:italic;">Vitalogy</h1>
   <h2 style="font-family:fantasy;"><a href="https://pearljam.com" target="_blank">Pearl Jam</a></h2>
-  <h3>Release Date: December 6, 1994</h3>
+  <h5>Release Date: December 6, 1994</h5>
   <p> Third studio album with music featuring a more diverse sound consisting of aggressive rock song and ballads.</p>
   <h2 style="font-family: fantasy;">Band Members and Producer</h2>
-  <div style="text-align:center";">
+  </body>
   <ul>
   <li>Eddie Vedder - Lead Vocals, Guitar</li>
   <li>Stone Gossard - Guitar, Vocals</li>
@@ -32,14 +53,16 @@
   <li>Dave Abbruzzese - Drums</li>
   <li>Brendan O'Brien - Producer</li>
    </ul>
-   </div>
    <table border="1" width="100%">
    <caption>Tracks</caption>
+   <thead>
    <tr bgcolor="grey">
    <th>Track #</th>
    <th>Track Title</th>
    <th>Track Length</th>
    </tr>
+   </thead>
+   <tbody style="font-style: italic";>
    <tr>
     <td>1</td>
     <td>Last Exit</td>
@@ -70,6 +93,7 @@
     <td>Whipping</td>
     <td>2:35</td>
     </tr>
+   </tbody>
     </table>
-   </body>
+   
 </html>
